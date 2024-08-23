@@ -7,7 +7,7 @@ const Exercicio03 = () => {
     const [text, setText] = useState('')
 
   return (
-    <View style={StyleSheet.container}>
+    <View style={style.container}>
       <TextInput
         value={text}
         onChangeText={setText}
@@ -18,7 +18,7 @@ const Exercicio03 = () => {
   )
 }
 
-const stylos = StyleSheet.createContext({
+const style = StyleSheet.create({
     container: {
         alignItems: 'center', 
         justifyContent: 'center',
