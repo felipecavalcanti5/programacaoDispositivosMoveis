@@ -4,14 +4,14 @@ import React from 'react'
 
 const Exercicio02 = () => {
 
-    const [first, setfirst] = useState(second)
+    const [contador, setContador] = useState(0)
 
     function incrementar(){
-        setContador(constador+1)
+        setContador(contador+1)
     }
 
     function decrementar(){
-        setContador(constador-1)
+        setContador(contador-1)
     }
 
 
