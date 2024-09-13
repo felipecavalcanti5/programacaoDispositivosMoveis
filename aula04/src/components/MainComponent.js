@@ -4,7 +4,7 @@ import ThemeContext from '../contexts/ThemeContext'
 
 const MainComponent = () => {
 
-    const [theme, toggleTheme] = useContext(ThemeContext)
+    const {theme, toggleTheme} = useContext(ThemeContext)
 
 
 
